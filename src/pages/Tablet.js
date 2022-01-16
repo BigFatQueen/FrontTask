@@ -5,7 +5,7 @@ import { buyonegetoneArray } from "../assets/data";
 import { ClassNames } from "@emotion/react";
 import phone from "./../assets/Category icons/Asset 42.png";
 const Tablet = () => {
-  console.log(buyonegetoneArray);
+  // console.log(buyonegetoneArray);
   return (
     <div>
       <div className="titleDiv">
