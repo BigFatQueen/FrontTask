@@ -1,0 +1,21 @@
+.title {
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    margin: 30px 0px !important;
+}
+
+.titleDiv {
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 990px) {
+    .titleDiv {
+        padding: 0px 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
