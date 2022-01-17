@@ -5,22 +5,18 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
-import Typography from "@mui/material/Typography";
 import InputBase from "@mui/material/InputBase";
-import Badge from "@mui/material/Badge";
 import MenuItem from "@mui/material/MenuItem";
 import Menu from "@mui/material/Menu";
-import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
 import AccountCircle from "@mui/icons-material/AccountCircle";
 import Drawer from "./../components/Drawer";
-import { Avatar, InputAdornment, Select, Checkbox } from "@mui/material";
+import { InputAdornment } from "@mui/material";
 import SvgIcon from "@mui/material/SvgIcon";
 import { ReactComponent as Checkout } from "./../assets/WebBanner&AD/NavBarIcons/Asset 34.svg";
 import { ReactComponent as AddtoCart } from "./../assets/WebBanner&AD/NavBarIcons/Asset 33.svg";
 import { ReactComponent as Notification } from "./../assets/WebBanner&AD/NavBarIcons/Asset 35.svg";
 import { ReactComponent as PersonalInfo } from "./../assets/WebBanner&AD/NavBarIcons/Asset 36.svg";
-import mmFlag from "./../assets/WebBanner&AD/imgs/mm.png";
 import LanguageSelection from "./../components/language";
 
 function HomeIcon(props) {
@@ -72,9 +68,6 @@ export default function PrimarySearchAppBar() {
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
-  const [state, setState] = React.useState({
-    right: false,
-  });
 
   const isMenuOpen = Boolean(anchorEl);
   const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
@@ -165,18 +158,6 @@ export default function PrimarySearchAppBar() {
       </MenuItem>
     </Menu>
   );
-
-  const toggleDrawer = (anchor, open) => (event) => {
-    if (
-      event &&
-      event.type === "keydown" &&
-      (event.key === "Tab" || event.key === "Shift")
-    ) {
-      return;
-    }
-
-    setState({ ...state, [anchor]: open });
-  };
 
   return (
     <Box sx={{ flexGrow: 1 }}>

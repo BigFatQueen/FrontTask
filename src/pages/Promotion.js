@@ -2,7 +2,6 @@ import React from "react";
 import Card from "../components/Card";
 import { Typography, Grid } from "@mui/material";
 import { promotion } from "../assets/data";
-import { ClassNames } from "@emotion/react";
 const Promotion = () => {
   return (
     <div>

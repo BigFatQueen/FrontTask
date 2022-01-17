@@ -2,7 +2,6 @@ import React from "react";
 import Card from "../components/Card";
 import { Typography, Grid, Box, Avatar } from "@mui/material";
 import { buyonegetoneArray } from "../assets/data";
-import { ClassNames } from "@emotion/react";
 import phone from "./../assets/Category icons/Asset 42.png";
 const Laptop = () => {
   // console.log(buyonegetoneArray);

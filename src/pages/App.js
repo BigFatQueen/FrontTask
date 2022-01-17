@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import Box from "@mui/material/Box";
 import Navbar from "./Navbar";
 import banner from "./../assets/WebBanner&AD/Banner2.jpg";
 import { makeStyles } from "@mui/styles";

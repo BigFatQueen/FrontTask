@@ -3,17 +3,14 @@ import Box from "@mui/material/Box";
 import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 
 import IconButton from "@mui/material/IconButton";
-import Button from "@mui/material/Button";
 import List from "@mui/material/List";
 
 import MenuIcon from "@mui/icons-material/Menu";
-import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import SvgIcon from "@mui/material/SvgIcon";
 import { ReactComponent as Checkout } from "./../assets/WebBanner&AD/NavBarIcons/Asset 34.svg";
-import { ReactComponent as AddtoCart } from "./../assets/WebBanner&AD/NavBarIcons/Asset 33.svg";
 import { ReactComponent as Notification } from "./../assets/WebBanner&AD/NavBarIcons/Asset 35.svg";
 import { ReactComponent as PersonalInfo } from "./../assets/WebBanner&AD/NavBarIcons/Asset 36.svg";
 

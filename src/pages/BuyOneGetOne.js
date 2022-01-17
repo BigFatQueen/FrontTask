@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./../components/Card";
 import { Typography, Grid, Box } from "@mui/material";
 import { buyonegetoneArray } from "../assets/data";
-import { ClassNames } from "@emotion/react";
+
 const BuyOneGetOne = () => {
   // console.log(buyonegetoneArray);
   return (

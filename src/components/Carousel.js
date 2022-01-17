@@ -16,6 +16,7 @@ const CarouselDiv = () => {
                 objectFit: "contain",
                 objectPosition: "center",
               }}
+              alt={item}
             />
           </div>
         );

@@ -1,7 +1,6 @@
 import React from "react";
 import { Grid, Typography, Box } from "@mui/material";
 import { makeStyles } from "@mui/styles";
-import { ClassNames } from "@emotion/react";
 const useStyle = makeStyles((theme) => ({
   root: {
     padding: "20px 40px",

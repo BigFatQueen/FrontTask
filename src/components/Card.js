@@ -1,6 +1,5 @@
 import React from "react";
 import { makeStyles } from "@mui/styles";
-import { ClassNames } from "@emotion/react";
 import { Typography } from "@mui/material";
 import bagshop from "./../assets/WebBanner&AD/imgs/shopbag1.png";
 import FavoriteIcon from "@mui/icons-material/Favorite";
@@ -18,7 +17,6 @@ const useStyles = makeStyles((theme) => ({
     backgroundSize: "cover",
     backgroundPosition: "center",
     position: "relative",
-
     backgroundColor: "#686868",
     color: "#fff",
     borderRadius: "8px",

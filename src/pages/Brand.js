@@ -1,8 +1,7 @@
 import React from "react";
-import { Typography, Box, Avatar } from "@mui/material";
+import { Typography, Box } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import { brands } from "../assets/data";
-import Marquee from "react-fast-marquee";
 const useStyle = makeStyles((theme) => ({
   brandicons: {
     overflow: "auto",
@@ -46,7 +45,7 @@ const Brand = () => {
       >
         {brands.map((item, index) => (
           <Box key={index} className={classes.photoSection}>
-            <img src={item} />
+            <img src={item} alt={item} />
           </Box>
         ))}
         <Box className={classes.photoSection} style={{ display: "flex" }}>
@@ -55,7 +54,7 @@ const Brand = () => {
             variant="body1"
             component="div"
           >
-            view all
+            P view all
           </Typography>
         </Box>
       </Box>
